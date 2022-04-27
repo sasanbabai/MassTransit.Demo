@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sbabai/dev/MassTransit/Demo/Worker/Worker.csproj": {}
+  },
+  "projects": {
+    "/home/sbabai/dev/MassTransit/Demo/Components/Components.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sbabai/dev/MassTransit/Demo/Components/Components.csproj",
+        "projectName": "Components",
+        "projectPath": "/home/sbabai/dev/MassTransit/Demo/Components/Components.csproj",
+        "packagesPath": "/home/sbabai/.nuget/packages/",
+        "outputPath": "/home/sbabai/dev/MassTransit/Demo/Components/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/sbabai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/sbabai/dev/MassTransit/Demo/Contracts/Contracts.csproj": {
+                "projectPath": "/home/sbabai/dev/MassTransit/Demo/Contracts/Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sbabai/dev/MassTransit/Demo/Contracts/Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sbabai/dev/MassTransit/Demo/Contracts/Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "/home/sbabai/dev/MassTransit/Demo/Contracts/Contracts.csproj",
+        "packagesPath": "/home/sbabai/.nuget/packages/",
+        "outputPath": "/home/sbabai/dev/MassTransit/Demo/Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/sbabai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sbabai/dev/MassTransit/Demo/Worker/Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sbabai/dev/MassTransit/Demo/Worker/Worker.csproj",
+        "projectName": "Worker",
+        "projectPath": "/home/sbabai/dev/MassTransit/Demo/Worker/Worker.csproj",
+        "packagesPath": "/home/sbabai/.nuget/packages/",
+        "outputPath": "/home/sbabai/dev/MassTransit/Demo/Worker/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/sbabai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/sbabai/dev/MassTransit/Demo/Components/Components.csproj": {
+                "projectPath": "/home/sbabai/dev/MassTransit/Demo/Components/Components.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MassTransit.Redis": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

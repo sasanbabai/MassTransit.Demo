@@ -1,0 +1,15 @@
+/home/sbabai/dev/MassTransit/Demo/Components/bin/Debug/net6.0/Components.deps.json
+/home/sbabai/dev/MassTransit/Demo/Components/bin/Debug/net6.0/Components.dll
+/home/sbabai/dev/MassTransit/Demo/Components/bin/Debug/net6.0/Components.pdb
+/home/sbabai/dev/MassTransit/Demo/Components/bin/Debug/net6.0/Contracts.dll
+/home/sbabai/dev/MassTransit/Demo/Components/bin/Debug/net6.0/Contracts.pdb
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/Components.csproj.AssemblyReference.cache
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/Components.GeneratedMSBuildEditorConfig.editorconfig
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/Components.AssemblyInfoInputs.cache
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/Components.AssemblyInfo.cs
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/Components.csproj.CoreCompileInputs.cache
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/Components.csproj.CopyComplete
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/Components.dll
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/refint/Components.dll
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/Components.pdb
+/home/sbabai/dev/MassTransit/Demo/Components/obj/Debug/net6.0/ref/Components.dll

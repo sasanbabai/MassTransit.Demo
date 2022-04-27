@@ -1,0 +1,12 @@
+/home/sbabai/dev/MassTransit/Demo/Contracts/bin/Debug/net6.0/Contracts.deps.json
+/home/sbabai/dev/MassTransit/Demo/Contracts/bin/Debug/net6.0/Contracts.dll
+/home/sbabai/dev/MassTransit/Demo/Contracts/bin/Debug/net6.0/Contracts.pdb
+/home/sbabai/dev/MassTransit/Demo/Contracts/obj/Debug/net6.0/Contracts.csproj.AssemblyReference.cache
+/home/sbabai/dev/MassTransit/Demo/Contracts/obj/Debug/net6.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/sbabai/dev/MassTransit/Demo/Contracts/obj/Debug/net6.0/Contracts.AssemblyInfoInputs.cache
+/home/sbabai/dev/MassTransit/Demo/Contracts/obj/Debug/net6.0/Contracts.AssemblyInfo.cs
+/home/sbabai/dev/MassTransit/Demo/Contracts/obj/Debug/net6.0/Contracts.csproj.CoreCompileInputs.cache
+/home/sbabai/dev/MassTransit/Demo/Contracts/obj/Debug/net6.0/Contracts.dll
+/home/sbabai/dev/MassTransit/Demo/Contracts/obj/Debug/net6.0/refint/Contracts.dll
+/home/sbabai/dev/MassTransit/Demo/Contracts/obj/Debug/net6.0/Contracts.pdb
+/home/sbabai/dev/MassTransit/Demo/Contracts/obj/Debug/net6.0/ref/Contracts.dll

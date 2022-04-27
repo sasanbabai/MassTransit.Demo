@@ -1,0 +1,19 @@
+POST https://localhost:7085/order HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+orderId=d03c46ca-9e69-49cf-8487-0f72246def8d&customerId=520c1ba5-8932-468b-8851-48051841ac3d
+
+###
+
+POST https://localhost:7085/order/submit-and-forget HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+orderId=d03c46ca-9e69-49cf-8487-0f72246def8d&customerId=520c1ba5-8932-468b-8851-48051841ac3d
+
+###
+
+GET https://localhost:7085/order/d03c46ca-9e69-49cf-8487-0f72246def8d HTTP/1.1
+
+###
+
+DELETE https://localhost:7085/customer/d03c46ca-9e69-49cf-8487-0f72246def8d HTTP/1.1
